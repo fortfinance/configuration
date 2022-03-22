@@ -1,0 +1,40 @@
+name: Rsync
+on:
+  push:
+    branches:
+      - develop
+defaults:
+  run:
+    shell: bash
+jobs:
+  deploy_to_forkserver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: rsync deployments to develop-rpc-backend.fortfinance.io
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avrz --exclude=".git" --exclude=".idea" --exclude=".github" --exclude="fortifications.json"
+          path: ./networks/mainnet.json
+          remote_path: /home/ubuntu/api/config
+          remote_host: ec2-54-151-192-8.ap-southeast-1.compute.amazonaws.com
+          remote_port: 22
+          remote_user: ubuntu
+          remote_key: ${{ secrets.DEPLOY_KEY }}
