@@ -1,0 +1,15 @@
+[
+  "error ReturnIndexValueError()",
+  "error SubIndexValueError()",
+  "function ERR_RETURN_INDEX_VALUE() view returns (string)",
+  "function ERR_SUB_INDEX_VALUE() view returns (string)",
+  "function NO_PARAM_MAPPING() view returns (uint8)",
+  "function RETURN_MAX_INDEX_VALUE() view returns (uint8)",
+  "function RETURN_MIN_INDEX_VALUE() view returns (uint8)",
+  "function SUB_MAX_INDEX_VALUE() view returns (uint8)",
+  "function SUB_MIN_INDEX_VALUE() view returns (uint8)",
+  "function actionType() pure returns (uint8)",
+  "function executeAction(bytes,bytes32[],uint8[],bytes32[],address) payable returns (bool, bytes32)",
+  "function factory() view returns (address)",
+  "function router() view returns (address)"
+]

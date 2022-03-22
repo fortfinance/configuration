@@ -1,0 +1,3 @@
+[
+  "function getRateToEth(address,bool) payable returns (uint256)"
+]

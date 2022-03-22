@@ -1,0 +1,11 @@
+[
+  "function approve(address,uint256) returns (bool)",
+  "function balanceOf(address) view returns (uint256)",
+  "function borrowBalanceCurrent(address) view returns (uint256)",
+  "function getAccountSnapshot(address) view returns (uint256, uint256, uint256, uint256)",
+  "function mint(uint256) returns (uint256)",
+  "function redeem(uint256) returns (uint256)",
+  "function repayBorrowBehalf(address,uint256) returns (uint256)",
+  "function transfer(address,uint256) returns (bool)",
+  "function transferFrom(address,address,uint256) returns (bool)"
+]

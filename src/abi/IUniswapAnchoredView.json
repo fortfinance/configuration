@@ -1,0 +1,7 @@
+[
+  "function getTokenConfigByCToken(address) view returns (tuple(address,address,bytes32,uint256,uint8,uint256,address,address,uint256,bool))",
+  "function getTokenConfigBySymbol(string) view returns (tuple(address,address,bytes32,uint256,uint8,uint256,address,address,uint256,bool))",
+  "function getTokenConfigBySymbolHash(bytes32) view returns (tuple(address,address,bytes32,uint256,uint8,uint256,address,address,uint256,bool))",
+  "function getUnderlyingPrice(address) view returns (uint256)",
+  "function price(string) view returns (uint256)"
+]

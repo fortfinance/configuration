@@ -1,0 +1,7 @@
+[
+  "event Failure(uint256,uint256,uint256)",
+  "function COMPOUND_COMPTROLLER() view returns (address)",
+  "function UNISWAP_ANCHOREDVIEW() view returns (address)",
+  "function evaluate(uint256,bytes,bytes,address) returns (bool, bytes)",
+  "function getNeededUsdForTargetCollateralRatio(address,address,uint256) view returns (uint256, uint256, uint256, uint256, uint256)"
+]

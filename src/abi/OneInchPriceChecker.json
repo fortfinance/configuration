@@ -1,0 +1,8 @@
+[
+  "function AGGREGATOR_V3_INTERFACE_CHAINLINK_ETH() view returns (address)",
+  "function ETH_ADDR() view returns (address)",
+  "function ETH_MAINNET_ORACLE() view returns (address)",
+  "function WETH_ADDR() view returns (address)",
+  "function aggregatorV3() view returns (address)",
+  "function evaluate(uint256,bytes,bytes,address) returns (bool, bytes)"
+]

@@ -1,0 +1,9 @@
+[
+  "function accountAssets(address,uint256) view returns (address)",
+  "function checkMembership(address,address) view returns (bool)",
+  "function getAccountLiquidity(address) view returns (uint256, uint256, uint256)",
+  "function getAssetsIn(address) view returns (address[])",
+  "function markets(address) view returns (bool, uint256, bool)",
+  "function maxAssets() view returns (uint256)",
+  "function oracle() view returns (address)"
+]

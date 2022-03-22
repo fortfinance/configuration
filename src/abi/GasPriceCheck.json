@@ -1,0 +1,4 @@
+[
+  "function evaluate(uint256,bytes,bytes,address) returns (bool, bytes)",
+  "function parseInputs(bytes) pure returns (tuple(uint256))"
+]

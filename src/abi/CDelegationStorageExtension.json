@@ -1,0 +1,4 @@
+[
+  "function implementation() view returns (address)",
+  "function internalCash() view returns (uint256)"
+]

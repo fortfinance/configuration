@@ -1,0 +1,4 @@
+[
+  "function checkFortificationStatus(uint256,uint8) view returns (bool, uint8)",
+  "function evaluate(uint256,bytes,bytes,address) returns (bool, bytes)"
+]

@@ -1,0 +1,16 @@
+[
+  "error ReturnIndexValueError()",
+  "error SubIndexValueError()",
+  "function ERR_RETURN_INDEX_VALUE() view returns (string)",
+  "function ERR_SUB_INDEX_VALUE() view returns (string)",
+  "function NO_PARAM_MAPPING() view returns (uint8)",
+  "function OneinchSwap(address,address,address,address,uint256,uint256,bytes,tuple(address,address,address,address,uint256,uint256,uint256,bytes)) returns (uint256)",
+  "function RETURN_MAX_INDEX_VALUE() view returns (uint8)",
+  "function RETURN_MIN_INDEX_VALUE() view returns (uint8)",
+  "function SUB_MAX_INDEX_VALUE() view returns (uint8)",
+  "function SUB_MIN_INDEX_VALUE() view returns (uint8)",
+  "function UniswapV3inchSwap(address,address,address,address,uint256,uint256,uint256[]) returns (uint256)",
+  "function UnoOneinchSwap(address,address,address,address,uint256,uint256,bytes32[]) returns (uint256)",
+  "function actionType() pure returns (uint8)",
+  "function executeAction(bytes,bytes32[],uint8[],bytes32[],address) payable returns (bool, bytes32)"
+]

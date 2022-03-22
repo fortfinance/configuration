@@ -1,0 +1,8 @@
+[
+  "function ISPARTIAL_INDEX() view returns (uint256)",
+  "function ISPARTIAL_SIZE() view returns (uint256)",
+  "function TMP_INDEX() view returns (uint256)",
+  "function TMP_SIZE() view returns (uint256)",
+  "function VERSION_INDEX() view returns (uint256)",
+  "function VERSION_SIZE() view returns (uint256)"
+]

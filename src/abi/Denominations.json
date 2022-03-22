@@ -1,0 +1,22 @@
+[
+  "function ARS() view returns (address)",
+  "function AUD() view returns (address)",
+  "function BRL() view returns (address)",
+  "function BTC() view returns (address)",
+  "function CAD() view returns (address)",
+  "function CHF() view returns (address)",
+  "function CNY() view returns (address)",
+  "function ETH() view returns (address)",
+  "function EUR() view returns (address)",
+  "function GBP() view returns (address)",
+  "function INR() view returns (address)",
+  "function JPY() view returns (address)",
+  "function KRW() view returns (address)",
+  "function NGN() view returns (address)",
+  "function NZD() view returns (address)",
+  "function PHP() view returns (address)",
+  "function RUB() view returns (address)",
+  "function SGD() view returns (address)",
+  "function USD() view returns (address)",
+  "function ZAR() view returns (address)"
+]
