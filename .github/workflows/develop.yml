@@ -33,7 +33,7 @@ jobs:
         with:
           switches: -avrz --exclude=".git" --exclude=".idea" --exclude=".github" --exclude="fortifications.json"
           path: ./networks/mainnet.json
-          remote_path: /home/ubuntu/api/config
+          remote_path: /home/ubuntu/api/config/mainnet.json
           remote_host: ec2-54-151-192-8.ap-southeast-1.compute.amazonaws.com
           remote_port: 22
           remote_user: ubuntu
