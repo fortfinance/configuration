@@ -2,6 +2,7 @@ import {FormatTypes, Interface} from 'ethers/lib/utils';
 import fs from 'fs-extra'
 import mainnet from "./networks/mainnet";
 
+
 const SUPPORTED_NETWORKS: any = {'mainnet': mainnet}
 
 function getAbi(name: string) {
