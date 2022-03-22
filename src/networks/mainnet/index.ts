@@ -12,7 +12,7 @@ const mainnet = {
         ...compound,
         ...one_inch
     },
-    Tokens: {
+    tokens: {
         ...regular_tokens,
         ...compound_tokens,
         ...uniswap_v2_tokens,
