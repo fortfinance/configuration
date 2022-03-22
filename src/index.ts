@@ -35,16 +35,17 @@ async function generateConfig() {
 
     // Read the old config to get the old version
     const oldConfig = await fs.readJSON(`${process.cwd()}/networks/${network}.json`)
-    let oldVersion = oldConfig.Version
+    let oldVersion = oldConfig.VERSION
     if (oldVersion == undefined) oldVersion = 0
 
     // Populate the config with the abis
     config = populateAbiOnConfig(config)
 
     // Bump the version
-    config.Version = oldVersion + 1
+    config.VERSION = oldVersion + 1
 
-    // TODO: timestamp
+    // Timestamp
+    config.GENERATED_AT = Date.now()
 
     await fs.outputJSON(`${process.cwd()}/networks/${network}.json`, config)
 }

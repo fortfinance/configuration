@@ -1,5 +1,5 @@
 const uniswap_v2_tokens = {
-    "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc": {
+    USDC_WETH: {
         address: "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
         abi: "UniswapV2Pair",
         symbol: "USDC/WETH",
@@ -17,7 +17,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x21b8065d10f73ee2e260e5b47d3344d3ced7596e": {
+    WISE_WETH: {
         address: "0x21b8065d10f73ee2e260e5b47d3344d3ced7596e",
         abi: "UniswapV2Pair",
         symbol: "WISE/WETH",
@@ -35,7 +35,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852": {
+    WETH_USDT: {
         address: "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
         abi: "UniswapV2Pair",
         symbol: "WETH/USDT",
@@ -53,7 +53,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688": {
+    TOKE_WETH: {
         address: "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
         abi: "UniswapV2Pair",
         symbol: "TOKE/WETH",
@@ -71,7 +71,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xe1573b9d29e2183b1af0e743dc2754979a40d237": {
+    FXS_FRAX: {
         address: "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
         abi: "UniswapV2Pair",
         symbol: "FXS/FRAX",
@@ -89,7 +89,7 @@ const uniswap_v2_tokens = {
             name: "Frax"
         }
     },
-    "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d5": {
+    DAI_USDC: {
         address: "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d5",
         abi: "UniswapV2Pair",
         symbol: "DAI/USDC",
@@ -107,7 +107,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f": {
+    USDC_USDT: {
         address: "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f",
         abi: "UniswapV2Pair",
         symbol: "USDC/USDT",
@@ -125,7 +125,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0xccb63225a7b19dcf66717e4d40c9a72b39331d61": {
+    MC_WETH: {
         address: "0xccb63225a7b19dcf66717e4d40c9a72b39331d61",
         abi: "UniswapV2Pair",
         symbol: "MC/WETH",
@@ -143,7 +143,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9": {
+    WETH_wPE: {
         address: "0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9",
         abi: "UniswapV2Pair",
         symbol: "WETH/wPE",
@@ -161,7 +161,7 @@ const uniswap_v2_tokens = {
             name: "OPES Finance"
         }
     },
-    "0xd3d2e2692501a5c9ca623199d38826e513033a17": {
+    UNI_WETH: {
         address: "0xd3d2e2692501a5c9ca623199d38826e513033a17",
         abi: "UniswapV2Pair",
         symbol: "UNI/WETH",
@@ -179,7 +179,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11": {
+    DAI_WETH: {
         address: "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
         abi: "UniswapV2Pair",
         symbol: "DAI/WETH",
@@ -197,7 +197,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x61b62c5d56ccd158a38367ef2f539668a06356ab": {
+    FNK_USDT: {
         address: "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
         abi: "UniswapV2Pair",
         symbol: "FNK/USDT",
@@ -215,7 +215,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0xbb2b8038a1640196fbe3e38816f3e67cba72d940": {
+    WBTC_WETH: {
         address: "0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
         abi: "UniswapV2Pair",
         symbol: "WBTC/WETH",
@@ -233,7 +233,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x63b61e73d3fa1fb96d51ce457cabe89fffa7a1f1": {
+    SHINJA_WETH: {
         address: "0x63b61e73d3fa1fb96d51ce457cabe89fffa7a1f1",
         abi: "UniswapV2Pair",
         symbol: "SHINJA/WETH",
@@ -251,7 +251,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c": {
+    PAXG_WETH: {
         address: "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
         abi: "UniswapV2Pair",
         symbol: "PAXG/WETH",
@@ -269,7 +269,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74": {
+    SAND_WETH: {
         address: "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74",
         abi: "UniswapV2Pair",
         symbol: "SAND/WETH",
@@ -287,7 +287,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x7b73644935b8e68019ac6356c40661e1bc315860": {
+    ELON_WETH: {
         address: "0x7b73644935b8e68019ac6356c40661e1bc315860",
         abi: "UniswapV2Pair",
         symbol: "ELON/WETH",
@@ -305,7 +305,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x25647e01bd0967c1b9599fa3521939871d1d0888": {
+    WETH_SUPER: {
         address: "0x25647e01bd0967c1b9599fa3521939871d1d0888",
         abi: "UniswapV2Pair",
         symbol: "WETH/SUPER",
@@ -323,7 +323,7 @@ const uniswap_v2_tokens = {
             name: "SuperFarm"
         }
     },
-    "0x0af81cd5d9c124b4859d65697a4cd10ee223746a": {
+    XXi_WETH: {
         address: "0x0af81cd5d9c124b4859d65697a4cd10ee223746a",
         abi: "UniswapV2Pair",
         symbol: "XXi/WETH",
@@ -341,7 +341,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x470e8de2ebaef52014a47cb5e6af86884947f08c": {
+    WETH_FOX: {
         address: "0x470e8de2ebaef52014a47cb5e6af86884947f08c",
         abi: "UniswapV2Pair",
         symbol: "WETH/FOX",
@@ -359,7 +359,7 @@ const uniswap_v2_tokens = {
             name: "FOX"
         }
     },
-    "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824": {
+    HEX_USDC: {
         address: "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
         abi: "UniswapV2Pair",
         symbol: "HEX/USDC",
@@ -377,7 +377,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0x0ee0cb563a52ae1170ac34fbb94c50e89adde4bd": {
+    WAXE_WETH: {
         address: "0x0ee0cb563a52ae1170ac34fbb94c50e89adde4bd",
         abi: "UniswapV2Pair",
         symbol: "WAXE/WETH",
@@ -395,7 +395,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9": {
+    FLX_WETH: {
         address: "0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9",
         abi: "UniswapV2Pair",
         symbol: "FLX/WETH",
@@ -413,7 +413,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xb612c37688861f1f90761dc7f382c2af3a50cc39": {
+    OHM_FRAX: {
         address: "0xb612c37688861f1f90761dc7f382c2af3a50cc39",
         abi: "UniswapV2Pair",
         symbol: "OHM/FRAX",
@@ -431,7 +431,7 @@ const uniswap_v2_tokens = {
             name: "Frax"
         }
     },
-    "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244": {
+    BOND_USDC: {
         address: "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244",
         abi: "UniswapV2Pair",
         symbol: "BOND/USDC",
@@ -449,7 +449,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0x27fd0857f0ef224097001e87e61026e39e1b04d1": {
+    WETH_RLY: {
         address: "0x27fd0857f0ef224097001e87e61026e39e1b04d1",
         abi: "UniswapV2Pair",
         symbol: "WETH/RLY",
@@ -467,7 +467,7 @@ const uniswap_v2_tokens = {
             name: "Rally"
         }
     },
-    "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23": {
+    SAITAMA_WETH: {
         address: "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
         abi: "UniswapV2Pair",
         symbol: "SAITAMA/WETH",
@@ -485,7 +485,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974": {
+    LINK_WETH: {
         address: "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974",
         abi: "UniswapV2Pair",
         symbol: "LINK/WETH",
@@ -503,7 +503,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8": {
+    UFO_WETH: {
         address: "0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8",
         abi: "UniswapV2Pair",
         symbol: "UFO/WETH",
@@ -521,7 +521,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x32a505bf9db617d23bf3ebaac9aef80cb24a828c": {
+    CHEDDA_WETH: {
         address: "0x32a505bf9db617d23bf3ebaac9aef80cb24a828c",
         abi: "UniswapV2Pair",
         symbol: "CHEDDA/WETH",
@@ -539,7 +539,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6033368e4a402605294c91cf5c03d72bd96e7d8d": {
+    X2Y2_WETH: {
         address: "0x6033368e4a402605294c91cf5c03d72bd96e7d8d",
         abi: "UniswapV2Pair",
         symbol: "X2Y2/WETH",
@@ -557,16 +557,16 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xcd6bcca48069f8588780dfa274960f15685aee0e": {
+    MIST_WETH: {
         address: "0xcd6bcca48069f8588780dfa274960f15685aee0e",
         abi: "UniswapV2Pair",
-        symbol: "⚗️/WETH",
-        name: "⚗️/WETH",
+        symbol: "MIST/WETH",
+        name: "MIST/WETH",
         enabled: "true",
         platform: "uniswap_v2",
         token0: {
             address: "0x88acdd2a6425c3faae4bc9650fd7e27e0bebb7ab",
-            symbol: "⚗️",
+            symbol: "MIST",
             name: "Alchemist"
         },
         token1: {
@@ -575,7 +575,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x2d0ba902badaa82592f0e1c04c71d66cea21d921": {
+    WETH_BTT: {
         address: "0x2d0ba902badaa82592f0e1c04c71d66cea21d921",
         abi: "UniswapV2Pair",
         symbol: "WETH/BTT",
@@ -593,7 +593,7 @@ const uniswap_v2_tokens = {
             name: "BitTorrent"
         }
     },
-    "0x1693c24445895bd8f4d5a327eafa0263191ed906": {
+    MOCHI_WETH: {
         address: "0x1693c24445895bd8f4d5a327eafa0263191ed906",
         abi: "UniswapV2Pair",
         symbol: "MOCHI/WETH",
@@ -611,7 +611,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e": {
+    STARL_WETH: {
         address: "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
         abi: "UniswapV2Pair",
         symbol: "STARL/WETH",
@@ -629,7 +629,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xcaa004418eb42cdf00cb057b7c9e28f0ffd840a5": {
+    WILD_WETH: {
         address: "0xcaa004418eb42cdf00cb057b7c9e28f0ffd840a5",
         abi: "UniswapV2Pair",
         symbol: "WILD/WETH",
@@ -647,7 +647,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4bacaaabe3e96959ddf3269d3092d5cea88fefe9": {
+    XMON_WETH: {
         address: "0x4bacaaabe3e96959ddf3269d3092d5cea88fefe9",
         abi: "UniswapV2Pair",
         symbol: "XMON/WETH",
@@ -665,7 +665,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x8ae720a71622e824f576b4a8c03031066548a3b1": {
+    RAI_WETH: {
         address: "0x8ae720a71622e824f576b4a8c03031066548a3b1",
         abi: "UniswapV2Pair",
         symbol: "RAI/WETH",
@@ -683,7 +683,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x5f6fbe81171d0f52cc58d6a2ac6ee1a9e52d18d2": {
+    "10SET_WETH": {
         address: "0x5f6fbe81171d0f52cc58d6a2ac6ee1a9e52d18d2",
         abi: "UniswapV2Pair",
         symbol: "10SET/WETH",
@@ -701,7 +701,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xccab68f48531215b0707e8d908c43e7de73dbdbc": {
+    USDC_UNIX: {
         address: "0xccab68f48531215b0707e8d908c43e7de73dbdbc",
         abi: "UniswapV2Pair",
         symbol: "USDC/UNIX",
@@ -719,7 +719,7 @@ const uniswap_v2_tokens = {
             name: "UniX Gaming"
         }
     },
-    "0xc0bf97bffa94a50502265c579a3b7086d081664b": {
+    STRONG_WETH: {
         address: "0xc0bf97bffa94a50502265c579a3b7086d081664b",
         abi: "UniswapV2Pair",
         symbol: "STRONG/WETH",
@@ -737,7 +737,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x2b788a7b1a0ee0da8cb1d2769825198d9c95d19d": {
+    TERA_WETH: {
         address: "0x2b788a7b1a0ee0da8cb1d2769825198d9c95d19d",
         abi: "UniswapV2Pair",
         symbol: "TERA/WETH",
@@ -755,7 +755,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x149148acc3b06b8cc73af3a10e84189243a35925": {
+    BigSB_USDC: {
         address: "0x149148acc3b06b8cc73af3a10e84189243a35925",
         abi: "UniswapV2Pair",
         symbol: "BigSB/USDC",
@@ -773,7 +773,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xb20bd5d04be54f870d5c0d3ca85d82b34b836405": {
+    DAI_USDT: {
         address: "0xb20bd5d04be54f870d5c0d3ca85d82b34b836405",
         abi: "UniswapV2Pair",
         symbol: "DAI/USDT",
@@ -791,7 +791,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x570febdf89c07f256c75686caca215289bb11cfc": {
+    ERN_WETH: {
         address: "0x570febdf89c07f256c75686caca215289bb11cfc",
         abi: "UniswapV2Pair",
         symbol: "ERN/WETH",
@@ -809,7 +809,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x343fd171caf4f0287ae6b87d75a8964dc44516ab": {
+    PNK_WETH: {
         address: "0x343fd171caf4f0287ae6b87d75a8964dc44516ab",
         abi: "UniswapV2Pair",
         symbol: "PNK/WETH",
@@ -827,7 +827,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x452c60e1e3ae0965cd27db1c7b3a525d197ca0aa": {
+    VADER_WETH: {
         address: "0x452c60e1e3ae0965cd27db1c7b3a525d197ca0aa",
         abi: "UniswapV2Pair",
         symbol: "VADER/WETH",
@@ -845,7 +845,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc2adda861f89bbb333c90c492cb837741916a225": {
+    MKR_WETH: {
         address: "0xc2adda861f89bbb333c90c492cb837741916a225",
         abi: "UniswapV2Pair",
         symbol: "MKR/WETH",
@@ -863,7 +863,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a": {
+    WOO_WETH: {
         address: "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
         abi: "UniswapV2Pair",
         symbol: "WOO/WETH",
@@ -881,7 +881,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x87898263b6c5babe34b4ec53f22d98430b91e371": {
+    WETH_BEAN: {
         address: "0x87898263b6c5babe34b4ec53f22d98430b91e371",
         abi: "UniswapV2Pair",
         symbol: "WETH/BEAN",
@@ -899,7 +899,7 @@ const uniswap_v2_tokens = {
             name: "Bean"
         }
     },
-    "0xc5be99a02c6857f9eac67bbce58df5572498f40c": {
+    WETH_AMPL: {
         address: "0xc5be99a02c6857f9eac67bbce58df5572498f40c",
         abi: "UniswapV2Pair",
         symbol: "WETH/AMPL",
@@ -917,7 +917,7 @@ const uniswap_v2_tokens = {
             name: "Ampleforth"
         }
     },
-    "0x8c1c499b1796d7f3c2521ac37186b52de024e58c": {
+    RAD_USDC: {
         address: "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
         abi: "UniswapV2Pair",
         symbol: "RAD/USDC",
@@ -935,7 +935,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0x5233349957586a8207c52693a959483f9aeaa50c": {
+    mTSLA_UST: {
         address: "0x5233349957586a8207c52693a959483f9aeaa50c",
         abi: "UniswapV2Pair",
         symbol: "mTSLA/UST",
@@ -953,7 +953,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0x873056a02255872514f05249d93228d788fe4fb4": {
+    DG_USDC: {
         address: "0x873056a02255872514f05249d93228d788fe4fb4",
         abi: "UniswapV2Pair",
         symbol: "DG/USDC",
@@ -971,7 +971,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xc50ef7861153c51d383d9a7d48e6c9467fb90c38": {
+    UST_USDT: {
         address: "0xc50ef7861153c51d383d9a7d48e6c9467fb90c38",
         abi: "UniswapV2Pair",
         symbol: "UST/USDT",
@@ -989,7 +989,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x3854612b93b140726167cca5418b01e832515d42": {
+    HIGH_WETH: {
         address: "0x3854612b93b140726167cca5418b01e832515d42",
         abi: "UniswapV2Pair",
         symbol: "HIGH/WETH",
@@ -1007,7 +1007,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xd6ef070951d008f1e6426ad9ca1c4fcf7220ee4d": {
+    FLX_USDC: {
         address: "0xd6ef070951d008f1e6426ad9ca1c4fcf7220ee4d",
         abi: "UniswapV2Pair",
         symbol: "FLX/USDC",
@@ -1025,7 +1025,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xdf60e6416fcf8c955fddf01148753a911f7a5905": {
+    KUMA_WETH: {
         address: "0xdf60e6416fcf8c955fddf01148753a911f7a5905",
         abi: "UniswapV2Pair",
         symbol: "KUMA/WETH",
@@ -1043,7 +1043,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x700fc86c46299cf2a8fd86edadae3f57014351b0": {
+    RACA_USDT: {
         address: "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
         abi: "UniswapV2Pair",
         symbol: "RACA/USDT",
@@ -1061,7 +1061,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x3016a43b482d0480460f6625115bd372fe90c6bf": {
+    ShibDoge_WETH: {
         address: "0x3016a43b482d0480460f6625115bd372fe90c6bf",
         abi: "UniswapV2Pair",
         symbol: "ShibDoge/WETH",
@@ -1079,7 +1079,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x8ff2fd6f94cdce7c56bb11328eb9928c9483aa66": {
+    MINDS_WETH: {
         address: "0x8ff2fd6f94cdce7c56bb11328eb9928c9483aa66",
         abi: "UniswapV2Pair",
         symbol: "MINDS/WETH",
@@ -1097,7 +1097,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x860425be6ad1345dc7a3e287facbf32b18bc4fae": {
+    mSLV_UST: {
         address: "0x860425be6ad1345dc7a3e287facbf32b18bc4fae",
         abi: "UniswapV2Pair",
         symbol: "mSLV/UST",
@@ -1115,7 +1115,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xf66369997ae562bc9eec2ab9541581252f9ca383": {
+    PERP_WETH: {
         address: "0xf66369997ae562bc9eec2ab9541581252f9ca383",
         abi: "UniswapV2Pair",
         symbol: "PERP/WETH",
@@ -1133,7 +1133,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xffa98a091331df4600f87c9164cd27e8a5cd2405": {
+    POLS_WETH: {
         address: "0xffa98a091331df4600f87c9164cd27e8a5cd2405",
         abi: "UniswapV2Pair",
         symbol: "POLS/WETH",
@@ -1151,7 +1151,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xca7c2771d248dcbe09eabe0ce57a62e18da178c0": {
+    WETH_FLOKI: {
         address: "0xca7c2771d248dcbe09eabe0ce57a62e18da178c0",
         abi: "UniswapV2Pair",
         symbol: "WETH/FLOKI",
@@ -1169,7 +1169,7 @@ const uniswap_v2_tokens = {
             name: "FLOKI"
         }
     },
-    "0x9fe47318fa2b28b53ce673852922c4065b0bebcd": {
+    TEMPLE_FRAX: {
         address: "0x9fe47318fa2b28b53ce673852922c4065b0bebcd",
         abi: "UniswapV2Pair",
         symbol: "TEMPLE/FRAX",
@@ -1187,7 +1187,7 @@ const uniswap_v2_tokens = {
             name: "Frax"
         }
     },
-    "0x854373387e41371ac6e307a1f29603c6fa10d872": {
+    FEG_WETH: {
         address: "0x854373387e41371ac6e307a1f29603c6fa10d872",
         abi: "UniswapV2Pair",
         symbol: "FEG/WETH",
@@ -1205,7 +1205,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xee5647e90cc76bb966d2babb483995f3efd95c39": {
+    PDT_WETH: {
         address: "0xee5647e90cc76bb966d2babb483995f3efd95c39",
         abi: "UniswapV2Pair",
         symbol: "PDT/WETH",
@@ -1223,7 +1223,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xfe903a12359496b932e24c5e9b78f1b9060a6342": {
+    PKF_WETH: {
         address: "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
         abi: "UniswapV2Pair",
         symbol: "PKF/WETH",
@@ -1241,7 +1241,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc730ef0f4973da9cc0ab8ab291890d3e77f58f79": {
+    AUDIO_WETH: {
         address: "0xc730ef0f4973da9cc0ab8ab291890d3e77f58f79",
         abi: "UniswapV2Pair",
         symbol: "AUDIO/WETH",
@@ -1259,7 +1259,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4fda00d490c1c05ff15d7313d1cebe9c711e434b": {
+    WHALE_WETH: {
         address: "0x4fda00d490c1c05ff15d7313d1cebe9c711e434b",
         abi: "UniswapV2Pair",
         symbol: "WHALE/WETH",
@@ -1277,7 +1277,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x7924a818013f39cf800f5589ff1f1f0def54f31f": {
+    LON_WETH: {
         address: "0x7924a818013f39cf800f5589ff1f1f0def54f31f",
         abi: "UniswapV2Pair",
         symbol: "LON/WETH",
@@ -1295,7 +1295,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xd6c783b257e662ca949b441a4fcb08a53fc49914": {
+    IQ_FRAX: {
         address: "0xd6c783b257e662ca949b441a4fcb08a53fc49914",
         abi: "UniswapV2Pair",
         symbol: "IQ/FRAX",
@@ -1313,7 +1313,7 @@ const uniswap_v2_tokens = {
             name: "Frax"
         }
     },
-    "0x05be6820730b30086d6355c44c424230aaff41fb": {
+    WETH_VEMP: {
         address: "0x05be6820730b30086d6355c44c424230aaff41fb",
         abi: "UniswapV2Pair",
         symbol: "WETH/VEMP",
@@ -1331,7 +1331,7 @@ const uniswap_v2_tokens = {
             name: "vEmpire Gamer Token"
         }
     },
-    "0x6cbcd84abcfbb411426dc21a621fe9a68b985bf4": {
+    WETH_PEEPS: {
         address: "0x6cbcd84abcfbb411426dc21a621fe9a68b985bf4",
         abi: "UniswapV2Pair",
         symbol: "WETH/PEEPS",
@@ -1349,7 +1349,7 @@ const uniswap_v2_tokens = {
             name: "The People’s Coin"
         }
     },
-    "0x3df70e5b6edead5277590d3de5731d17f46e043b": {
+    DG_WETH: {
         address: "0x3df70e5b6edead5277590d3de5731d17f46e043b",
         abi: "UniswapV2Pair",
         symbol: "DG/WETH",
@@ -1367,7 +1367,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x9c2b19dbdfad3f283c0b96c5546d91a275778d91": {
+    WETH_MCC: {
         address: "0x9c2b19dbdfad3f283c0b96c5546d91a275778d91",
         abi: "UniswapV2Pair",
         symbol: "WETH/MCC",
@@ -1385,7 +1385,7 @@ const uniswap_v2_tokens = {
             name: "MultiChainCapital"
         }
     },
-    "0x5bacb4114ad2d448e79addef121714b74d67faec": {
+    WETH_KEYS: {
         address: "0x5bacb4114ad2d448e79addef121714b74d67faec",
         abi: "UniswapV2Pair",
         symbol: "WETH/KEYS",
@@ -1403,7 +1403,7 @@ const uniswap_v2_tokens = {
             name: "Keys"
         }
     },
-    "0x0be902716176d66364f1c2ecf25829a6d95c5bee": {
+    CDS_WETH: {
         address: "0x0be902716176d66364f1c2ecf25829a6d95c5bee",
         abi: "UniswapV2Pair",
         symbol: "CDS/WETH",
@@ -1421,7 +1421,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x08650bb9dc722c9c8c62e79c2bafa2d3fc5b3293": {
+    WETH_AMP: {
         address: "0x08650bb9dc722c9c8c62e79c2bafa2d3fc5b3293",
         abi: "UniswapV2Pair",
         symbol: "WETH/AMP",
@@ -1439,7 +1439,7 @@ const uniswap_v2_tokens = {
             name: "Amp"
         }
     },
-    "0xf6c4e4f339912541d3f8ed99dba64a1372af5e5b": {
+    USDT_HEZ: {
         address: "0xf6c4e4f339912541d3f8ed99dba64a1372af5e5b",
         abi: "UniswapV2Pair",
         symbol: "USDT/HEZ",
@@ -1457,7 +1457,7 @@ const uniswap_v2_tokens = {
             name: "Hermez Network Token"
         }
     },
-    "0x4b70ccd1cf9905be1faed025eadbd3ab124efe9a": {
+    mGOOGL_UST: {
         address: "0x4b70ccd1cf9905be1faed025eadbd3ab124efe9a",
         abi: "UniswapV2Pair",
         symbol: "mGOOGL/UST",
@@ -1475,7 +1475,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xfe796ba940256e65048d1e6b52ec8755067c7145": {
+    VOLT_WETH: {
         address: "0xfe796ba940256e65048d1e6b52ec8755067c7145",
         abi: "UniswapV2Pair",
         symbol: "VOLT/WETH",
@@ -1493,7 +1493,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba": {
+    HEX_WETH: {
         address: "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba",
         abi: "UniswapV2Pair",
         symbol: "HEX/WETH",
@@ -1511,7 +1511,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x9e3b47b861b451879d43bba404c35bdfb99f0a6c": {
+    mQQQ_UST: {
         address: "0x9e3b47b861b451879d43bba404c35bdfb99f0a6c",
         abi: "UniswapV2Pair",
         symbol: "mQQQ/UST",
@@ -1529,7 +1529,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xdcec563a15b0de0fdfc19c97d5ee18a5570fed7f": {
+    GUILD_USDC: {
         address: "0xdcec563a15b0de0fdfc19c97d5ee18a5570fed7f",
         abi: "UniswapV2Pair",
         symbol: "GUILD/USDC",
@@ -1547,7 +1547,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xebd54ad6c1d4b079bdc20ecf36dd29d1d76c9977": {
+    WETH_URUS: {
         address: "0xebd54ad6c1d4b079bdc20ecf36dd29d1d76c9977",
         abi: "UniswapV2Pair",
         symbol: "WETH/URUS",
@@ -1565,7 +1565,7 @@ const uniswap_v2_tokens = {
             name: "Aurox Token"
         }
     },
-    "0x2caccf71bdf8fff97c06a46eca29b611b1a74b5e": {
+    SWFL_WETH: {
         address: "0x2caccf71bdf8fff97c06a46eca29b611b1a74b5e",
         abi: "UniswapV2Pair",
         symbol: "SWFL/WETH",
@@ -1583,7 +1583,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x8d1ca95559abed542ef4402a252974221b5e1036": {
+    WETH_wCELO: {
         address: "0x8d1ca95559abed542ef4402a252974221b5e1036",
         abi: "UniswapV2Pair",
         symbol: "WETH/wCELO",
@@ -1601,7 +1601,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Celo"
         }
     },
-    "0xaf31fd9c3b0350424bf96e551d2d1264d8466205": {
+    WETH_PUSH: {
         address: "0xaf31fd9c3b0350424bf96e551d2d1264d8466205",
         abi: "UniswapV2Pair",
         symbol: "WETH/PUSH",
@@ -1619,7 +1619,7 @@ const uniswap_v2_tokens = {
             name: "Ethereum Push Notification Service"
         }
     },
-    "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88": {
+    KISHU_WETH: {
         address: "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
         abi: "UniswapV2Pair",
         symbol: "KISHU/WETH",
@@ -1637,7 +1637,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xb022e08adc8ba2de6ba4fecb59c6d502f66e953b": {
+    UST_mAAPL: {
         address: "0xb022e08adc8ba2de6ba4fecb59c6d502f66e953b",
         abi: "UniswapV2Pair",
         symbol: "UST/mAAPL",
@@ -1655,7 +1655,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Mirror AAPL Token"
         }
     },
-    "0x974d51fafc9013e42cbbb9465ea03fe097824bcc": {
+    AELIN_WETH: {
         address: "0x974d51fafc9013e42cbbb9465ea03fe097824bcc",
         abi: "UniswapV2Pair",
         symbol: "AELIN/WETH",
@@ -1673,7 +1673,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xaf996125e98b5804c00ffdb4f7ff386307c99a00": {
+    XFI_WETH: {
         address: "0xaf996125e98b5804c00ffdb4f7ff386307c99a00",
         abi: "UniswapV2Pair",
         symbol: "XFI/WETH",
@@ -1691,7 +1691,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x1ee312a6d5fe7b4b8c25f0a32fca6391209ebebf": {
+    WETH_GOVI: {
         address: "0x1ee312a6d5fe7b4b8c25f0a32fca6391209ebebf",
         abi: "UniswapV2Pair",
         symbol: "WETH/GOVI",
@@ -1709,7 +1709,7 @@ const uniswap_v2_tokens = {
             name: "GOVI"
         }
     },
-    "0x98d677887af8a699be38ef6276f4cd84aca29d74": {
+    GM_WETH: {
         address: "0x98d677887af8a699be38ef6276f4cd84aca29d74",
         abi: "UniswapV2Pair",
         symbol: "GM/WETH",
@@ -1727,7 +1727,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x9ff68f61ca5eb0c6606dc517a9d44001e564bb66": {
+    BOTTO_WETH: {
         address: "0x9ff68f61ca5eb0c6606dc517a9d44001e564bb66",
         abi: "UniswapV2Pair",
         symbol: "BOTTO/WETH",
@@ -1745,7 +1745,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4d5ef58aac27d99935e5b6b4a6778ff292059991": {
+    DPI_WETH: {
         address: "0x4d5ef58aac27d99935e5b6b4a6778ff292059991",
         abi: "UniswapV2Pair",
         symbol: "DPI/WETH",
@@ -1763,7 +1763,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xa626eb9cc7dec00703586414d0811e1ba2021443": {
+    USDC_DOE: {
         address: "0xa626eb9cc7dec00703586414d0811e1ba2021443",
         abi: "UniswapV2Pair",
         symbol: "USDC/DOE",
@@ -1781,7 +1781,7 @@ const uniswap_v2_tokens = {
             name: "Dogs Of Elon"
         }
     },
-    "0x602414a63c90801dc4337ee440b3454a6d2c275b": {
+    SHEESHA_WETH: {
         address: "0x602414a63c90801dc4337ee440b3454a6d2c275b",
         abi: "UniswapV2Pair",
         symbol: "SHEESHA/WETH",
@@ -1799,7 +1799,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xaf5a7469cf2571b973aeee9ae2f8aad00e1337d2": {
+    SUNC_WETH: {
         address: "0xaf5a7469cf2571b973aeee9ae2f8aad00e1337d2",
         abi: "UniswapV2Pair",
         symbol: "SUNC/WETH",
@@ -1817,7 +1817,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x87da823b6fc8eb8575a235a824690fda94674c88": {
+    MIR_UST: {
         address: "0x87da823b6fc8eb8575a235a824690fda94674c88",
         abi: "UniswapV2Pair",
         symbol: "MIR/UST",
@@ -1835,7 +1835,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xa29fe6ef9592b5d408cca961d0fb9b1faf497d6d": {
+    WETH_DEXT: {
         address: "0xa29fe6ef9592b5d408cca961d0fb9b1faf497d6d",
         abi: "UniswapV2Pair",
         symbol: "WETH/DEXT",
@@ -1853,7 +1853,7 @@ const uniswap_v2_tokens = {
             name: "DEXTools"
         }
     },
-    "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b": {
+    WETH_BEZOGE: {
         address: "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
         abi: "UniswapV2Pair",
         symbol: "WETH/BEZOGE",
@@ -1871,7 +1871,7 @@ const uniswap_v2_tokens = {
             name: "Bezoge Earth"
         }
     },
-    "0x1bfffb738d69167d5592160a47d5404a3cf5a846": {
+    KEX_WETH: {
         address: "0x1bfffb738d69167d5592160a47d5404a3cf5a846",
         abi: "UniswapV2Pair",
         symbol: "KEX/WETH",
@@ -1889,7 +1889,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc3d7aa944105d3fafe07fc1822102449c916a8d0": {
+    WDOGE_WETH: {
         address: "0xc3d7aa944105d3fafe07fc1822102449c916a8d0",
         abi: "UniswapV2Pair",
         symbol: "WDOGE/WETH",
@@ -1907,7 +1907,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x9def9511fec79f83afcbffe4776b1d817dc775ae": {
+    ANT_WETH: {
         address: "0x9def9511fec79f83afcbffe4776b1d817dc775ae",
         abi: "UniswapV2Pair",
         symbol: "ANT/WETH",
@@ -1925,7 +1925,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xbbbf1426cbe8509ef58451ab7ad67cb74866e3fa": {
+    SHKOOBY_WETH: {
         address: "0xbbbf1426cbe8509ef58451ab7ad67cb74866e3fa",
         abi: "UniswapV2Pair",
         symbol: "SHKOOBY/WETH",
@@ -1943,7 +1943,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4e84460a8b8bad045ff4eb5be1ecce7a3e3a17c8": {
+    WETH_LUFFY: {
         address: "0x4e84460a8b8bad045ff4eb5be1ecce7a3e3a17c8",
         abi: "UniswapV2Pair",
         symbol: "WETH/LUFFY",
@@ -1961,7 +1961,7 @@ const uniswap_v2_tokens = {
             name: "Luffy Inu"
         }
     },
-    "0x10db37f4d9b3bc32ae8303b46e6166f7e9652d28": {
+    RBC_WETH: {
         address: "0x10db37f4d9b3bc32ae8303b46e6166f7e9652d28",
         abi: "UniswapV2Pair",
         symbol: "RBC/WETH",
@@ -1979,7 +1979,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xaf21b0ec0197e63a5c6cc30c8e947eb8165c6212": {
+    WETH_DETS: {
         address: "0xaf21b0ec0197e63a5c6cc30c8e947eb8165c6212",
         abi: "UniswapV2Pair",
         symbol: "WETH/DETS",
@@ -1997,7 +1997,7 @@ const uniswap_v2_tokens = {
             name: "Dextrust"
         }
     },
-    "0x811beed0119b4afce20d2583eb608c6f7af1954f": {
+    SHIB_WETH: {
         address: "0x811beed0119b4afce20d2583eb608c6f7af1954f",
         abi: "UniswapV2Pair",
         symbol: "SHIB/WETH",
@@ -2015,7 +2015,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc0067d751fb1172dbab1fa003efe214ee8f419b6": {
+    DOGE_WETH: {
         address: "0xc0067d751fb1172dbab1fa003efe214ee8f419b6",
         abi: "UniswapV2Pair",
         symbol: "DOGE/WETH",
@@ -2033,7 +2033,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x29f07e631a2f990e1f6117c6285a44e746b1f090": {
+    EVN_WETH: {
         address: "0x29f07e631a2f990e1f6117c6285a44e746b1f090",
         abi: "UniswapV2Pair",
         symbol: "EVN/WETH",
@@ -2051,7 +2051,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xe5c5227d8105d8d5f26ff3634eb52e2d7cc15b50": {
+    ALBT_WETH: {
         address: "0xe5c5227d8105d8d5f26ff3634eb52e2d7cc15b50",
         abi: "UniswapV2Pair",
         symbol: "ALBT/WETH",
@@ -2069,7 +2069,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b": {
+    AKITA_WETH: {
         address: "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
         abi: "UniswapV2Pair",
         symbol: "AKITA/WETH",
@@ -2087,7 +2087,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xdb44a4a457c87225b5ba45f27b7828a4cc03c112": {
+    RBN_WETH: {
         address: "0xdb44a4a457c87225b5ba45f27b7828a4cc03c112",
         abi: "UniswapV2Pair",
         symbol: "RBN/WETH",
@@ -2105,7 +2105,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x629d22e6eeac46a11dbc96be93b90aee9309be4c": {
+    AURORA_WETH: {
         address: "0x629d22e6eeac46a11dbc96be93b90aee9309be4c",
         abi: "UniswapV2Pair",
         symbol: "AURORA/WETH",
@@ -2123,7 +2123,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xe6f19dab7d43317344282f803f8e8d240708174a": {
+    KEEP_WETH: {
         address: "0xe6f19dab7d43317344282f803f8e8d240708174a",
         abi: "UniswapV2Pair",
         symbol: "KEEP/WETH",
@@ -2141,7 +2141,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6f118ecebc31a5ffe49b87c47ea80f93a2af0a8a": {
+    XCAD_USDT: {
         address: "0x6f118ecebc31a5ffe49b87c47ea80f93a2af0a8a",
         abi: "UniswapV2Pair",
         symbol: "XCAD/USDT",
@@ -2159,7 +2159,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x819f3450da6f110ba6ea52195b3beafa246062de": {
+    MATIC_WETH: {
         address: "0x819f3450da6f110ba6ea52195b3beafa246062de",
         abi: "UniswapV2Pair",
         symbol: "MATIC/WETH",
@@ -2177,7 +2177,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6147805e1011417b93e5d693424a62a70d09d0e5": {
+    WETH_ankrETH: {
         address: "0x6147805e1011417b93e5d693424a62a70d09d0e5",
         abi: "UniswapV2Pair",
         symbol: "WETH/ankrETH",
@@ -2195,7 +2195,7 @@ const uniswap_v2_tokens = {
             name: "Ankr ETH"
         }
     },
-    "0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad": {
+    DEPO_WETH: {
         address: "0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad",
         abi: "UniswapV2Pair",
         symbol: "DEPO/WETH",
@@ -2213,7 +2213,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xfcd13ea0b906f2f87229650b8d93a51b2e839ebd": {
+    DOGE_USDT: {
         address: "0xfcd13ea0b906f2f87229650b8d93a51b2e839ebd",
         abi: "UniswapV2Pair",
         symbol: "DOGE/USDT",
@@ -2231,7 +2231,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x676ce85f66adb8d7b8323aeefe17087a3b8cb363": {
+    mBABA_UST: {
         address: "0x676ce85f66adb8d7b8323aeefe17087a3b8cb363",
         abi: "UniswapV2Pair",
         symbol: "mBABA/UST",
@@ -2249,7 +2249,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xc99a74145682c4b4a6e9fa55d559eb49a6884f75": {
+    UST_mNFLX: {
         address: "0xc99a74145682c4b4a6e9fa55d559eb49a6884f75",
         abi: "UniswapV2Pair",
         symbol: "UST/mNFLX",
@@ -2267,7 +2267,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Mirror NFLX Token"
         }
     },
-    "0x0f5a2eb364d8b722cba4e1e30e2cf57b6f515b2a": {
+    WETH_TVK: {
         address: "0x0f5a2eb364d8b722cba4e1e30e2cf57b6f515b2a",
         abi: "UniswapV2Pair",
         symbol: "WETH/TVK",
@@ -2285,7 +2285,7 @@ const uniswap_v2_tokens = {
             name: "Terra Virtua Kolect"
         }
     },
-    "0xf8d99cf7046dedcb1dc8cfc309aa96946c9b9db2": {
+    XFIT_USDT: {
         address: "0xf8d99cf7046dedcb1dc8cfc309aa96946c9b9db2",
         abi: "UniswapV2Pair",
         symbol: "XFIT/USDT",
@@ -2303,7 +2303,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0xf3b675df63fb4889180d290a338fc15c0766fd64": {
+    SPOOL_DAI: {
         address: "0xf3b675df63fb4889180d290a338fc15c0766fd64",
         abi: "UniswapV2Pair",
         symbol: "SPOOL/DAI",
@@ -2321,7 +2321,7 @@ const uniswap_v2_tokens = {
             name: "Dai Stablecoin"
         }
     },
-    "0xb5f790a03b7559312d9e738df5056a4b4c8459f4": {
+    GLM_WETH: {
         address: "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
         abi: "UniswapV2Pair",
         symbol: "GLM/WETH",
@@ -2339,7 +2339,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x20d2c17d1928ef4290bf17f922a10eaa2770bf43": {
+    MUSE_WETH: {
         address: "0x20d2c17d1928ef4290bf17f922a10eaa2770bf43",
         abi: "UniswapV2Pair",
         symbol: "MUSE/WETH",
@@ -2357,7 +2357,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x1ae2bf1c5e67509ef5b2367751a87e65c47be2c4": {
+    MINTYS_WETH: {
         address: "0x1ae2bf1c5e67509ef5b2367751a87e65c47be2c4",
         abi: "UniswapV2Pair",
         symbol: "MINTYS/WETH",
@@ -2375,7 +2375,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x984a3eab3cf2fc2b4ca6e4a3768624a8272fe2a3": {
+    WETH_C3: {
         address: "0x984a3eab3cf2fc2b4ca6e4a3768624a8272fe2a3",
         abi: "UniswapV2Pair",
         symbol: "WETH/C3",
@@ -2393,7 +2393,7 @@ const uniswap_v2_tokens = {
             name: "CHARLI3"
         }
     },
-    "0x9f9373b2b5fe5f6b32f171191946b0be30e0bd30": {
+    VPAD_USDT: {
         address: "0x9f9373b2b5fe5f6b32f171191946b0be30e0bd30",
         abi: "UniswapV2Pair",
         symbol: "VPAD/USDT",
@@ -2411,7 +2411,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983": {
+    WETH_ROOK: {
         address: "0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983",
         abi: "UniswapV2Pair",
         symbol: "WETH/ROOK",
@@ -2429,7 +2429,7 @@ const uniswap_v2_tokens = {
             name: "ROOK"
         }
     },
-    "0x60148519ad90ca9bb11a126f466fbfb73d895ce6": {
+    REFI_WETH: {
         address: "0x60148519ad90ca9bb11a126f466fbfb73d895ce6",
         abi: "UniswapV2Pair",
         symbol: "REFI/WETH",
@@ -2447,7 +2447,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6a322a02596793fc4a8123be18b10b9f0f718821": {
+    FANV_WETH: {
         address: "0x6a322a02596793fc4a8123be18b10b9f0f718821",
         abi: "UniswapV2Pair",
         symbol: "FANV/WETH",
@@ -2465,7 +2465,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6bd8ca9d141aa95842b41e1431a244c309c9008c": {
+    mUSO_UST: {
         address: "0x6bd8ca9d141aa95842b41e1431a244c309c9008c",
         abi: "UniswapV2Pair",
         symbol: "mUSO/UST",
@@ -2483,7 +2483,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xda3706c9a099077e6bc389d1baf918565212a54d": {
+    VIDYA_WETH: {
         address: "0xda3706c9a099077e6bc389d1baf918565212a54d",
         abi: "UniswapV2Pair",
         symbol: "VIDYA/WETH",
@@ -2501,7 +2501,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x56606d52e8f4186c80cf94a6230986bacba8b6b5": {
+    APOLLO_WETH: {
         address: "0x56606d52e8f4186c80cf94a6230986bacba8b6b5",
         abi: "UniswapV2Pair",
         symbol: "APOLLO/WETH",
@@ -2519,7 +2519,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x6490828bd87be38279a36f029f3b9af8b4e14b49": {
+    RVST_WETH: {
         address: "0x6490828bd87be38279a36f029f3b9af8b4e14b49",
         abi: "UniswapV2Pair",
         symbol: "RVST/WETH",
@@ -2537,7 +2537,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4cd36d6f32586177e36179a810595a33163a20bf": {
+    DAO_USDC: {
         address: "0x4cd36d6f32586177e36179a810595a33163a20bf",
         abi: "UniswapV2Pair",
         symbol: "DAO/USDC",
@@ -2555,7 +2555,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0x94ae6d2390680ac6e6ee6069be42067d6ad72e2a": {
+    CARDS_WETH: {
         address: "0x94ae6d2390680ac6e6ee6069be42067d6ad72e2a",
         abi: "UniswapV2Pair",
         symbol: "CARDS/WETH",
@@ -2573,7 +2573,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x0e9c8107682ab88604b4fbf847eeeceacf38e9e6": {
+    OIL_USDC: {
         address: "0x0e9c8107682ab88604b4fbf847eeeceacf38e9e6",
         abi: "UniswapV2Pair",
         symbol: "OIL/USDC",
@@ -2591,7 +2591,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0x28025dd7ab301df09e9d5d245e39777a40f37144": {
+    LBY_WETH: {
         address: "0x28025dd7ab301df09e9d5d245e39777a40f37144",
         abi: "UniswapV2Pair",
         symbol: "LBY/WETH",
@@ -2609,7 +2609,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x12d4444f96c644385d8ab355f6ddf801315b6254": {
+    CVP_WETH: {
         address: "0x12d4444f96c644385d8ab355f6ddf801315b6254",
         abi: "UniswapV2Pair",
         symbol: "CVP/WETH",
@@ -2627,7 +2627,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4423be2173401e96065953a3e962ba7b8fdba68a": {
+    WETH_renFIL: {
         address: "0x4423be2173401e96065953a3e962ba7b8fdba68a",
         abi: "UniswapV2Pair",
         symbol: "WETH/renFIL",
@@ -2645,7 +2645,7 @@ const uniswap_v2_tokens = {
             name: "renFIL"
         }
     },
-    "0x21c5918ccb42d20a2368bdca8feda0399ebfd2f6": {
+    GRO_USDC: {
         address: "0x21c5918ccb42d20a2368bdca8feda0399ebfd2f6",
         abi: "UniswapV2Pair",
         symbol: "GRO/USDC",
@@ -2663,7 +2663,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xdf42388059692150d0a9de836e4171c7b9c09cbf": {
+    WETH_KISHIMOTO: {
         address: "0xdf42388059692150d0a9de836e4171c7b9c09cbf",
         abi: "UniswapV2Pair",
         symbol: "WETH/KISHIMOTO",
@@ -2681,7 +2681,7 @@ const uniswap_v2_tokens = {
             name: "Kishimoto Inu"
         }
     },
-    "0xf52cc785d5f3e7d6ff0ad4e665a929b84f69e7c5": {
+    HOE_WETH: {
         address: "0xf52cc785d5f3e7d6ff0ad4e665a929b84f69e7c5",
         abi: "UniswapV2Pair",
         symbol: "HOE/WETH",
@@ -2699,7 +2699,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x69884da24f31960f694a8fa1f30aa8e0416fbd04": {
+    LTX_WETH: {
         address: "0x69884da24f31960f694a8fa1f30aa8e0416fbd04",
         abi: "UniswapV2Pair",
         symbol: "LTX/WETH",
@@ -2717,7 +2717,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x34856be886a2dba5f7c38c4df7fd86869ab08040": {
+    UST_mTWTR: {
         address: "0x34856be886a2dba5f7c38c4df7fd86869ab08040",
         abi: "UniswapV2Pair",
         symbol: "UST/mTWTR",
@@ -2735,7 +2735,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Mirror TWTR Token"
         }
     },
-    "0x6a164da2cdae5f1836c8fe6d683c3df4a0a65e5c": {
+    DJ15_WETH: {
         address: "0x6a164da2cdae5f1836c8fe6d683c3df4a0a65e5c",
         abi: "UniswapV2Pair",
         symbol: "DJ15/WETH",
@@ -2753,7 +2753,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc4a8c243d8cf7891d6282bb293e7a0aa4ef1ae51": {
+    RAIN_WETH: {
         address: "0xc4a8c243d8cf7891d6282bb293e7a0aa4ef1ae51",
         abi: "UniswapV2Pair",
         symbol: "RAIN/WETH",
@@ -2771,7 +2771,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x3bf862093cbb6412b6ee498f4d652bba005aa7f3": {
+    K21_WETH: {
         address: "0x3bf862093cbb6412b6ee498f4d652bba005aa7f3",
         abi: "UniswapV2Pair",
         symbol: "K21/WETH",
@@ -2789,7 +2789,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xeafad3065de347b910bb88f09a5abe580a09d655": {
+    mMSFT_UST: {
         address: "0xeafad3065de347b910bb88f09a5abe580a09d655",
         abi: "UniswapV2Pair",
         symbol: "mMSFT/UST",
@@ -2807,7 +2807,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0x0ae8cb1f57e3b1b7f4f5048743710084aa69e796": {
+    mAMZN_UST: {
         address: "0x0ae8cb1f57e3b1b7f4f5048743710084aa69e796",
         abi: "UniswapV2Pair",
         symbol: "mAMZN/UST",
@@ -2825,7 +2825,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e": {
+    SPI_WETH: {
         address: "0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e",
         abi: "UniswapV2Pair",
         symbol: "SPI/WETH",
@@ -2843,7 +2843,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc88ac988a655b91b70def427c8778b4d43f2048d": {
+    DERC_USDC: {
         address: "0xc88ac988a655b91b70def427c8778b4d43f2048d",
         abi: "UniswapV2Pair",
         symbol: "DERC/USDC",
@@ -2861,7 +2861,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xfa5562729fdc3ed3a52c3aab2e12bd504fd24991": {
+    AVG_WETH: {
         address: "0xfa5562729fdc3ed3a52c3aab2e12bd504fd24991",
         abi: "UniswapV2Pair",
         symbol: "AVG/WETH",
@@ -2879,7 +2879,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x450e653a0a125a1dc36d3901d3cce2e2287df0c2": {
+    MONGOOSE_WETH: {
         address: "0x450e653a0a125a1dc36d3901d3cce2e2287df0c2",
         abi: "UniswapV2Pair",
         symbol: "MONGOOSE/WETH",
@@ -2897,7 +2897,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878": {
+    FEI_WETH: {
         address: "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
         abi: "UniswapV2Pair",
         symbol: "FEI/WETH",
@@ -2915,7 +2915,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xaae64809138f576b0b50f1d898dd99055327c2d3": {
+    MRI_WETH: {
         address: "0xaae64809138f576b0b50f1d898dd99055327c2d3",
         abi: "UniswapV2Pair",
         symbol: "MRI/WETH",
@@ -2933,7 +2933,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x383d02acbb27b0066234cc1c9c459e0c54a41b24": {
+    UMX_WETH: {
         address: "0x383d02acbb27b0066234cc1c9c459e0c54a41b24",
         abi: "UniswapV2Pair",
         symbol: "UMX/WETH",
@@ -2951,7 +2951,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xf232d640a5700724748464ba8bd8bed21db609a6": {
+    SKL_WETH: {
         address: "0xf232d640a5700724748464ba8bd8bed21db609a6",
         abi: "UniswapV2Pair",
         symbol: "SKL/WETH",
@@ -2969,7 +2969,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x8d50d0fd88016ea63229e432803db4069c40db09": {
+    pBTC_WETH: {
         address: "0x8d50d0fd88016ea63229e432803db4069c40db09",
         abi: "UniswapV2Pair",
         symbol: "pBTC/WETH",
@@ -2987,7 +2987,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x7b28470032da06051f2e620531adbaeadb285408": {
+    MPL_USDC: {
         address: "0x7b28470032da06051f2e620531adbaeadb285408",
         abi: "UniswapV2Pair",
         symbol: "MPL/USDC",
@@ -3005,7 +3005,7 @@ const uniswap_v2_tokens = {
             name: "USDC"
         }
     },
-    "0xd7f97aa0317c08a1f5c2732e7894933f11724868": {
+    mIAU_UST: {
         address: "0xd7f97aa0317c08a1f5c2732e7894933f11724868",
         abi: "UniswapV2Pair",
         symbol: "mIAU/UST",
@@ -3023,7 +3023,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped UST Token"
         }
     },
-    "0xa2f6a219a51b4682e34a13a94c160d6c79cdca35": {
+    FILST_USDT: {
         address: "0xa2f6a219a51b4682e34a13a94c160d6c79cdca35",
         abi: "UniswapV2Pair",
         symbol: "FILST/USDT",
@@ -3041,7 +3041,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0xcd7989894bc033581532d2cd88da5db0a4b12859": {
+    WBTC_BADGER: {
         address: "0xcd7989894bc033581532d2cd88da5db0a4b12859",
         abi: "UniswapV2Pair",
         symbol: "WBTC/BADGER",
@@ -3059,7 +3059,7 @@ const uniswap_v2_tokens = {
             name: "Badger"
         }
     },
-    "0x6d76f7d16ca40dd13e52df3e1615318f763c0241": {
+    BIRD_WETH: {
         address: "0x6d76f7d16ca40dd13e52df3e1615318f763c0241",
         abi: "UniswapV2Pair",
         symbol: "BIRD/WETH",
@@ -3077,7 +3077,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xd8a07e9fe071106bf29536b93e8c9a26527af787": {
+    BLANK_WETH: {
         address: "0xd8a07e9fe071106bf29536b93e8c9a26527af787",
         abi: "UniswapV2Pair",
         symbol: "BLANK/WETH",
@@ -3095,7 +3095,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537": {
+    SDT_WETH: {
         address: "0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537",
         abi: "UniswapV2Pair",
         symbol: "SDT/WETH",
@@ -3113,7 +3113,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x78b9524101fb67286338261ddd85e20665e571c1": {
+    UNISTAKE_WETH: {
         address: "0x78b9524101fb67286338261ddd85e20665e571c1",
         abi: "UniswapV2Pair",
         symbol: "UNISTAKE/WETH",
@@ -3131,7 +3131,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x5b1e45ca08fa4d65aa7fdcf9e116990fb7fce73b": {
+    pBTC35A_USDT: {
         address: "0x5b1e45ca08fa4d65aa7fdcf9e116990fb7fce73b",
         abi: "UniswapV2Pair",
         symbol: "pBTC35A/USDT",
@@ -3149,7 +3149,7 @@ const uniswap_v2_tokens = {
             name: "Tether USD"
         }
     },
-    "0xbc2c5392b0b841832bec8b9c30747badda7b70ca": {
+    RENA_WETH: {
         address: "0xbc2c5392b0b841832bec8b9c30747badda7b70ca",
         abi: "UniswapV2Pair",
         symbol: "RENA/WETH",
@@ -3167,7 +3167,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0xa3b79b78678c15eec77389b380988b0229da1876": {
+    WHITE_WETH: {
         address: "0xa3b79b78678c15eec77389b380988b0229da1876",
         abi: "UniswapV2Pair",
         symbol: "WHITE/WETH",
@@ -3185,7 +3185,7 @@ const uniswap_v2_tokens = {
             name: "Wrapped Ether"
         }
     },
-    "0x4b3ec6f5290f729e4b9b0ccfbb1dfaa118c078a2": {
+    WETH_GAIN: {
         address: "0x4b3ec6f5290f729e4b9b0ccfbb1dfaa118c078a2",
         abi: "UniswapV2Pair",
         symbol: "WETH/GAIN",
@@ -3203,7 +3203,7 @@ const uniswap_v2_tokens = {
             name: "GainSwap"
         }
     },
-    "0xbc9d21652cca70f54351e3fb982c6b5dbe992a22": {
+    WETH_RKFL: {
         address: "0xbc9d21652cca70f54351e3fb982c6b5dbe992a22",
         abi: "UniswapV2Pair",
         symbol: "WETH/RKFL",
@@ -3221,7 +3221,7 @@ const uniswap_v2_tokens = {
             name: "RocketFuel"
         }
     },
-    "0xf89ce5ed65737da8440411544b0499c9fad323b2": {
+    agEUR_FEI: {
         address: "0xf89ce5ed65737da8440411544b0499c9fad323b2",
         abi: "UniswapV2Pair",
         symbol: "agEUR/FEI",
@@ -3239,7 +3239,7 @@ const uniswap_v2_tokens = {
             name: "Fei USD"
         }
     },
-    "0xf778c77ec3696879cb5ac814984655aefe66d716": {
+    UETH_DAPE: {
         address: "0xf778c77ec3696879cb5ac814984655aefe66d716",
         abi: "UniswapV2Pair",
         symbol: "UETH/DAPE",
@@ -3257,7 +3257,7 @@ const uniswap_v2_tokens = {
             name: "Degen Ape"
         }
     },
-    "0xe6c78983b07a07e0523b57e18aa23d3ae2519e05": {
+    UETH_ULCK: {
         address: "0xe6c78983b07a07e0523b57e18aa23d3ae2519e05",
         abi: "UniswapV2Pair",
         symbol: "UETH/ULCK",
@@ -3275,7 +3275,7 @@ const uniswap_v2_tokens = {
             name: "uLock"
         }
     },
-    "0xe2f95dae6c5763c357447fe1ffb3f2a884bdc0b5": {
+    ETH2POS_DC: {
         address: "0xe2f95dae6c5763c357447fe1ffb3f2a884bdc0b5",
         abi: "UniswapV2Pair",
         symbol: "ETH2POS/DC",
@@ -3293,7 +3293,7 @@ const uniswap_v2_tokens = {
             name: "Dcoin"
         }
     },
-    "0xc86881ef494b049fe3e624ae6fdf542f58ab1931": {
+    DBL_BLUE: {
         address: "0xc86881ef494b049fe3e624ae6fdf542f58ab1931",
         abi: "UniswapV2Pair",
         symbol: "DBL/BLUE",
@@ -3311,7 +3311,7 @@ const uniswap_v2_tokens = {
             name: "Blue Finance"
         }
     },
-    "0xbeddb932490e776301c776526615965fae2440de": {
+    FEI_FOX: {
         address: "0xbeddb932490e776301c776526615965fae2440de",
         abi: "UniswapV2Pair",
         symbol: "FEI/FOX",
@@ -3329,7 +3329,7 @@ const uniswap_v2_tokens = {
             name: "FOX"
         }
     },
-    "0x9e2336aef4157944f201becd90ccb24e298660cb": {
+    SYN_FEI: {
         address: "0x9e2336aef4157944f201becd90ccb24e298660cb",
         abi: "UniswapV2Pair",
         symbol: "SYN/FEI",
@@ -3347,7 +3347,7 @@ const uniswap_v2_tokens = {
             name: "Fei USD"
         }
     },
-    "0x9928e4046d7c6513326ccea028cd3e7a91c7590a": {
+    FEI_TRIBE: {
         address: "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
         abi: "UniswapV2Pair",
         symbol: "FEI/TRIBE",
@@ -3365,7 +3365,7 @@ const uniswap_v2_tokens = {
             name: "Tribe"
         }
     },
-    "0x9816f26f43c4c02df0daae1a0ba6a4dcd30b8ab7": {
+    M2_wPE: {
         address: "0x9816f26f43c4c02df0daae1a0ba6a4dcd30b8ab7",
         abi: "UniswapV2Pair",
         symbol: "M2/wPE",
@@ -3383,7 +3383,7 @@ const uniswap_v2_tokens = {
             name: "OPES Finance"
         }
     },
-    "0x93512394a82d278b9961e3891a59c6dc1c2e4f98": {
+    HANU_GOJ: {
         address: "0x93512394a82d278b9961e3891a59c6dc1c2e4f98",
         abi: "UniswapV2Pair",
         symbol: "HANU/GOJ",
@@ -3401,7 +3401,7 @@ const uniswap_v2_tokens = {
             name: "Goji"
         }
     },
-    "0x7b52460a146b5cf723bae55011aa5e5d503cde6e": {
+    ACR_RND: {
         address: "0x7b52460a146b5cf723bae55011aa5e5d503cde6e",
         abi: "UniswapV2Pair",
         symbol: "ACR/RND",
@@ -3419,7 +3419,7 @@ const uniswap_v2_tokens = {
             name: "RND"
         }
     },
-    "0x709f7b10f22eb62b05913b59b92ddd372d4e2152": {
+    PAXG_PAX: {
         address: "0x709f7b10f22eb62b05913b59b92ddd372d4e2152",
         abi: "UniswapV2Pair",
         symbol: "PAXG/PAX",
@@ -3437,7 +3437,7 @@ const uniswap_v2_tokens = {
             name: "Paxos Standard"
         }
     },
-    "0x603fb61742baed14c6b5922cef1ac0a2320c4cb6": {
+    UETH_ROOT: {
         address: "0x603fb61742baed14c6b5922cef1ac0a2320c4cb6",
         abi: "UniswapV2Pair",
         symbol: "UETH/ROOT",
@@ -3455,7 +3455,7 @@ const uniswap_v2_tokens = {
             name: "Rootkit"
         }
     },
-    "0x5d95bb70e1d8b7fabc286bbc163642b3c39097a7": {
+    SAND_REVV: {
         address: "0x5d95bb70e1d8b7fabc286bbc163642b3c39097a7",
         abi: "UniswapV2Pair",
         symbol: "SAND/REVV",
@@ -3473,7 +3473,7 @@ const uniswap_v2_tokens = {
             name: "REVV"
         }
     },
-    "0x58664dbfcd772a6f442c1b4e6780446c51d73103": {
+    GRO_FEI: {
         address: "0x58664dbfcd772a6f442c1b4e6780446c51d73103",
         abi: "UniswapV2Pair",
         symbol: "GRO/FEI",
@@ -3491,7 +3491,7 @@ const uniswap_v2_tokens = {
             name: "Fei USD"
         }
     },
-    "0x48918f57fa7210ea7b20f23da8420e68df3578fe": {
+    HANU_MIA: {
         address: "0x48918f57fa7210ea7b20f23da8420e68df3578fe",
         abi: "UniswapV2Pair",
         symbol: "HANU/MIA",
@@ -3509,7 +3509,7 @@ const uniswap_v2_tokens = {
             name: "Mia Neko"
         }
     },
-    "0x44ee37ba8c98493f2590811c197ddd474c911d46": {
+    KETH_ROOT: {
         address: "0x44ee37ba8c98493f2590811c197ddd474c911d46",
         abi: "UniswapV2Pair",
         symbol: "KETH/ROOT",
@@ -3527,7 +3527,7 @@ const uniswap_v2_tokens = {
             name: "RootKit"
         }
     },
-    "0x3c92befe32cdf5564ff2f3092edacb9f9e40d508": {
+    MT_ACR: {
         address: "0x3c92befe32cdf5564ff2f3092edacb9f9e40d508",
         abi: "UniswapV2Pair",
         symbol: "MT/ACR",
@@ -3545,7 +3545,7 @@ const uniswap_v2_tokens = {
             name: "Acreage"
         }
     },
-    "0x0f024314588466416c8fc66013ba4d3ab2e4efe5": {
+    UMA_FEI: {
         address: "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
         abi: "UniswapV2Pair",
         symbol: "UMA/FEI",
@@ -3563,7 +3563,7 @@ const uniswap_v2_tokens = {
             name: "Fei USD"
         }
     },
-    "0x0617d5ffb29c03ac35f1863b8a50ce1b52d446f6": {
+    RK_ROOT: {
         address: "0x0617d5ffb29c03ac35f1863b8a50ce1b52d446f6",
         abi: "UniswapV2Pair",
         symbol: "RK/ROOT",
@@ -3581,7 +3581,7 @@ const uniswap_v2_tokens = {
             name: "RootKit"
         }
     },
-    "0x0179d00549b44d3161b9c260815f8a5947a541b3": {
+    ULS_UETH: {
         address: "0x0179d00549b44d3161b9c260815f8a5947a541b3",
         abi: "UniswapV2Pair",
         symbol: "ULS/UETH",
