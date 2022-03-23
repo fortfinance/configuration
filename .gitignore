@@ -189,3 +189,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+/.idea/inspectionProfiles/
+/.idea/configuration.iml
+/.idea/markdown.xml
+/.idea/modules.xml
+/.idea/vcs.xml
