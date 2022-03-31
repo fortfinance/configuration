@@ -2,7 +2,6 @@
   "name": "configuration",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "repository": "https://github.com/fortfinance/configuration.git",
   "author": "Michael Francisco <mike.oostvoort@gmail.com>",
   "license": "MIT",

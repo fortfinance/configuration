@@ -209,14 +209,6 @@ const regular_tokens = {
         "decimals": 18,
         "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870"
     },
-    "CETH": {
-        "abi": "Erc20",
-        "symbol": "cETH",
-        "name": "Compound ETH",
-        "decimals": 8,
-        "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
-        "eip2612": true
-    },
     "RUNE": {
         "abi": "Erc20",
         "symbol": "RUNE",
@@ -287,20 +279,6 @@ const regular_tokens = {
         "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
         "decimals": 18
     },
-    "CDAI": {
-        "abi": "Erc20",
-        "symbol": "cDAI",
-        "name": "Compound Dai",
-        "decimals": 8,
-        "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643"
-    },
-    "CUSDC": {
-        "abi": "Erc20",
-        "symbol": "cUSDC",
-        "name": "Compound USD Coin",
-        "decimals": 8,
-        "address": "0x39aa39c021dfbae8fac545936693ac917d5e7563"
-    },
     "HBTC": {
         "abi": "Erc20",
         "symbol": "HBTC",
@@ -363,6 +341,13 @@ const regular_tokens = {
         "name": "Celsius",
         "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
         "decimals": 4
+    },
+    "NFTX": {
+        "address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
+        "symbol": "NFTX",
+        "name": "NFTX",
+        "abi": "Erc20",
+        "decimals": 18,
     },
     "NEXO": {
         "abi": "Erc20",
@@ -506,13 +491,6 @@ const regular_tokens = {
         "name": "Render Token",
         "decimals": 18,
         "address": "0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24"
-    },
-    "CUSDT": {
-        "abi": "Erc20",
-        "symbol": "cUSDT",
-        "name": "Compound USDT",
-        "decimals": 8,
-        "address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9"
     },
     "LOOKS": {
         "abi": "Erc20",
