@@ -5,6 +5,7 @@ import uniswap_v2_tokens from "./tokens/uniswap_v2";
 import one_inch from "./platforms/one_inch";
 import fort from "./platforms/fort";
 import compound from "./platforms/compound";
+import aave_tokens from "./tokens/aave";
 
 const mainnet = {
     platforms: {
@@ -16,7 +17,8 @@ const mainnet = {
         ...regular_tokens,
         ...compound_tokens,
         ...uniswap_v2_tokens,
-        ...yearn_tokens
+        ...yearn_tokens,
+        ...aave_tokens
     },
 }
 
