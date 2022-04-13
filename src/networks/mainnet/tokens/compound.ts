@@ -31,7 +31,7 @@ const compound_tokens = {
         symbol: 'cETH',
         abi: "CETH",
         name: "cETH",
-        decimals: 18,
+        decimals: 8,
         platform: 'compound',
         enabled: true
     },
