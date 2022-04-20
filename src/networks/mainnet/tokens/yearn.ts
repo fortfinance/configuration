@@ -1,18 +1,4 @@
 const yearn_tokens = {
-    yvYFI: {
-        address: '0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1',
-        symbol: 'yvYFI',
-        platform: 'yearn',
-        decimals: 18,
-        abi: "YearnToken"
-    },
-    yv1INCH: {
-        address: '0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67',
-        symbol: 'yv1INCH',
-        platform: 'yearn',
-        decimals: 18,
-        abi: "YearnToken"
-    },
     yvWETH: {
         address: '0xa258C4606Ca8206D8aA700cE2143D7db854D168c',
         symbol: 'yvWETH',
@@ -58,6 +44,20 @@ const yearn_tokens = {
     yvCOMP: {
         address: '0x4A3FE75762017DB0eD73a71C9A06db7768DB5e66',
         symbol: 'yvLINK',
+        platform: 'yearn',
+        decimals: 18,
+        abi: "YearnToken"
+    },
+    yvUNI: {
+        address: '0xFBEB78a723b8087fD2ea7Ef1afEc93d35E8Bed42',
+        symbol: 'yvUNI',
+        platform: 'yearn',
+        decimals: 18,
+        abi: "YearnToken"
+    },
+    yvAAVE: {
+        address: '0xd9788f3931Ede4D5018184E198699dC6d66C1915',
+        symbol: 'yvAAVE',
         platform: 'yearn',
         decimals: 18,
         abi: "YearnToken"
