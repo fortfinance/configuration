@@ -125,6 +125,14 @@ const compound_tokens = {
         platform: 'compound',
         enabled: true
     },
+    cUSDP: {
+        address: "0x041171993284df560249b57358f931d9eb7b925d",
+        abi: "cToken",
+        decimals: 8,
+        name: "Compound Pax Dollar",
+        symbol: "cUSDP",
+        underlying: "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+    },
 }
 
 export default compound_tokens
