@@ -43,7 +43,7 @@ const yearn_tokens = {
     },
     yvCOMP: {
         address: '0x4A3FE75762017DB0eD73a71C9A06db7768DB5e66',
-        symbol: 'yvLINK',
+        symbol: 'yvCOMP',
         platform: 'yearn',
         decimals: 18,
         abi: "YearnToken"
