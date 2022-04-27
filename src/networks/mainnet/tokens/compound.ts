@@ -1,3 +1,5 @@
+import regular_tokens from "./regular";
+
 const compound_tokens = {
     cAAVE: {
         address: '0xe65cdb6479bac1e22340e4e755fae7e509ecd06c',
@@ -7,7 +9,7 @@ const compound_tokens = {
         decimals: 18,
         platform: 'compound',
         enabled: true,
-        underlying: "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+        underlying: regular_tokens.AAVE
     },
     cBAT: {
         address: '0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E',
@@ -17,7 +19,7 @@ const compound_tokens = {
         decimals: 18,
         platform: 'compound',
         enabled: true,
-        underlying: "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+        underlying: regular_tokens.BAT,
     },
     cCOMP: {
         address: '0x70e36f6bf80a52b3b46b3af8e106cc0ed743e8e4',
@@ -27,7 +29,7 @@ const compound_tokens = {
         decimals: 18,
         platform: 'compound',
         enabled: true,
-        underlying: "0xc00e94cb662c3520282e6f5717214004a7f26888"
+        underlying: regular_tokens.COMP
     },
     cDAI: {
         address: '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643',
@@ -35,7 +37,7 @@ const compound_tokens = {
         abi: "cToken",
         name: "cDAI",
         decimals: 18,
-        underlying: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        underlying: regular_tokens.DAI,
         platform: 'compound',
         enabled: true
     },
@@ -56,7 +58,7 @@ const compound_tokens = {
         decimals:81,
         platform: 'compound',
         enabled: true,
-        underlying: "0x956F47F50A910163D8BF957Cf5846D573E7f87CA"
+        underlying: regular_tokens.FEI
     },
     cLINK: {
         address: '0xface851a4921ce59e912d19329929ce6da6eb0c7',
@@ -66,7 +68,7 @@ const compound_tokens = {
         decimals: 18,
         platform: 'compound',
         enabled: true,
-        underlying: "0x514910771af9ca656af840dff83e8264ecf986ca"
+        underlying: regular_tokens.LINK
 
     },
     cMKR: {
@@ -77,7 +79,7 @@ const compound_tokens = {
         decimals:81,
         platform: 'compound',
         enabled: true,
-        underlying: "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        underlying: regular_tokens.MKR,
 
     },
     cSUSHI: {
@@ -87,8 +89,7 @@ const compound_tokens = {
         name: "cSUSHI",
         decimals: 18,
         platform: 'compound',
-        underlying: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
-
+        underlying: regular_tokens.SUSHI,
         enabled: true
     },
     cTUSD: {
@@ -96,7 +97,7 @@ const compound_tokens = {
         symbol: 'cTUSD',
         abi: "cToken",
         name: "cTUSD",
-        underlying: "0x0000000000085d4780b73119b644ae5ecd22b376",
+        underlying: regular_tokens.TUSD,
         decimals: 18,
         platform: 'compound',
         enabled: true
@@ -108,7 +109,7 @@ const compound_tokens = {
         name: "cUNI",
         decimals: 18,
         platform: 'compound',
-        underlying: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        underlying: regular_tokens.UNI,
         enabled: true
     },
     cUSDC: {
@@ -119,16 +120,16 @@ const compound_tokens = {
         decimals: 18,
         platform: 'compound',
         enabled: true,
-        underlying: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        underlying: regular_tokens.USDC,
 
     },
-    cUSDCP: {
+    cUSDP: {
         address: '0x041171993284df560249b57358f931d9eb7b925d',
         symbol: 'cUSDP',
         abi: "cToken",
         name: "Compound Pax Dollar",
         decimals: 18,
-        underlying: "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+        underlying: regular_tokens.USDP,
         platform: 'compound',
         enabled: true
     },
@@ -140,7 +141,7 @@ const compound_tokens = {
         decimals: 18,
         platform: 'compound',
         enabled: true,
-        underlying: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        underlying: regular_tokens.USDT,
     },
     cWBTC2: {
         address: '0xccf4429db6322d5c611ee964527d42e5d685dd6a',
@@ -148,7 +149,7 @@ const compound_tokens = {
         abi: "cToken",
         name: "cWBTC2",
         decimals: 18,
-        underlying: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        underlying: regular_tokens.WBTC,
         platform: 'compound',
         enabled: true
     },
@@ -158,7 +159,7 @@ const compound_tokens = {
         abi: "cToken",
         name: "cYFI",
         decimals: 18,
-        underlying: "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+        underlying: regular_tokens.YFI,
         platform: 'compound',
         enabled: true
     },
@@ -166,7 +167,7 @@ const compound_tokens = {
         address: '0xb3319f5d18bc0d84dd1b4825dcde5d5f7266d407',
         symbol: 'cZRX',
         abi: "cToken",
-        underlying: "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        underlying: regular_tokens.ZRX,
         name: "cZRX",
         decimals: 18,
         platform: 'compound',
