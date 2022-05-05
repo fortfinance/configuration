@@ -2,7 +2,7 @@ name: Rsync
 on:
   push:
     branches:
-      - develop
+      - staging
 defaults:
   run:
     shell: bash
